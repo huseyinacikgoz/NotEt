@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="NotEt Gizlilik Politikası. Verilerinizin nasıl korunduğunu ve saklandığını öğrenin.">
+    <meta name="robots" content="noindex, follow">
+    <title>Gizlilik Politikası - NotEt</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-900 selection:bg-black selection:text-white flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="container mx-auto px-6 py-8 flex justify-between items-center border-b border-gray-100">
+        <div class="flex items-center gap-3">
+            <a href="index.html" class="flex items-center gap-2 group">
+                <div
+                    class="w-10 h-10 bg-black rounded-xl flex items-center justify-center text-white shadow-lg shadow-gray-200 group-hover:bg-gray-800 transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                </div>
+                <span class="text-xl font-bold tracking-tight text-black">NotEt</span>
+            </a>
+        </div>
+        <div>
+            <a href="notes.html"
+                class="px-5 py-2 bg-black text-white rounded-full font-medium text-sm hover:bg-gray-800 transition-colors">Uygulamaya
+                Git</a>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <main class="container mx-auto px-6 py-20 max-w-3xl flex-grow">
+        <h1 class="text-4xl font-bold mb-8">Gizlilik Politikası</h1>
+        <p class="text-gray-500 mb-12">Son Güncelleme: 9 Aralık 2025</p>
+
+        <div class="prose prose-lg prose-gray max-w-none space-y-8">
+            <section>
+                <h2 class="text-2xl font-bold mb-4 text-black">1. Veri Toplama ve Saklama</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    NotEt, kullanıcı gizliliğine en üst düzeyde önem veren "yerel öncelikli" (local-first) bir
+                    uygulamadır. Uygulamamızı kullandığınızda oluşturduğunuz notlar, kategoriler ve diğer veriler
+                    <strong>sadece sizin cihazınızda</strong> (tarayıcınızın LocalStorage alanında) saklanır.
+                </p>
+                <p class="text-gray-600 leading-relaxed mt-4">
+                    Verileriniz hiçbir şekilde NotEt sunucularına veya üçüncü taraf sunuculara gönderilmez, iletilmez
+                    veya yedeklenmez. Cihazınızdan çıkan tek bir veri bile yoktur.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold mb-4 text-black">2. Çerezler (Cookies) ve İzleme</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    NotEt, sizi izlemek, reklam göstermek veya kullanım alışkanlıklarınızı analiz etmek için herhangi
+                    bir izleme teknolojisi (tracker) veya analitik aracı (Google Analytics vb.) kullanmaz. Tarayıcınızda
+                    saklanan veriler sadece uygulamanın çalışması için gerekli olan kendi notlarınızdır.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold mb-4 text-black">3. Veri Güvenliği</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    Verileriniz cihazınızda saklandığı için güvenliği, cihazınızın güvenliğine bağlıdır. NotEt,
+                    yedekleme işlemi sırasında verilerinizi <strong>AES-GCM</strong> algoritması ile şifreleyerek dışa
+                    aktarmanıza olanak tanır.
+                </p>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-bold mb-4 text-black">4. İletişim</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    Gizlilik politikamızla ilgili sorularınız için <a href="contact.html"
+                        class="text-blue-600 hover:underline">iletişim sayfamızdan</a> veya <a
+                        href="mailto:notet@huseyinacikgoz.com.tr"
+                        class="text-blue-600 hover:underline">notet@huseyinacikgoz.com.tr</a>
+                    adresinden bize ulaşabilirsiniz.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-100 py-12 bg-white mt-auto">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-gray-400 mb-6 text-sm">&copy; 2025 NotEt. Tüm hakları saklıdır.</p>
+            <div class="flex justify-center gap-8">
+                <a href="privacy.html" class="text-black font-medium text-sm">Gizlilik Politikası</a>
+                <a href="terms.html"
+                    class="text-gray-400 hover:text-black transition-colors text-sm font-medium">Kullanım Şartları</a>
+                <a href="contact.html"
+                    class="text-gray-400 hover:text-black transition-colors text-sm font-medium">İletişim</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
